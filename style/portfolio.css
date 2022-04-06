@@ -127,6 +127,27 @@ hr {
   font-size: 20px;
 }
 
+.work-section {
+  text-align: center;
+  padding: 100px 20px;
+  color: var(--branding-color);
+}
+.work-example {
+  text-align: center;
+  color: var(--branding-color);
+}
+.work-example img {
+  padding: 20px;
+}
+.work-example h2 {
+  font-size: 40px;
+  font-family: var(--primary-font);
+  opacity: 0.75;
+}
+.work-example p {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 35px;
@@ -184,6 +205,22 @@ hr {
     font-size: 15px;
   }
   .contact-resources {
+    font-size: 15px;
+  }
+  .work-section {
+    padding: 50px 20px;
+  }
+  .work-example h2 {
+    font-size: 28px;
+    padding: 30px 0;
+  }
+  .work-example h3 {
+    font-size: 18px;
+  }
+  .work-example img {
+    padding: 30px;
+  }
+  .work-example p {
     font-size: 15px;
   }
 }
