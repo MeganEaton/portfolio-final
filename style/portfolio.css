@@ -20,8 +20,9 @@ h1 {
 p {
   line-height: 1.5;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
 }
+
 .hero {
   background: var(--secondary-color);
   color: var(--primary-font-color);
@@ -53,11 +54,17 @@ p {
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
 }
+.general-description {
+  margin: 0 auto;
+  padding: 80px;
+  color: var(--branding-color);
+  opacity: 0.75;
+}
 .container h2 {
   text-align: center;
   font-family: var(--heading-font);
   margin: 40px auto;
-  font-size: 35px;
+  font-size: 64px;
 }
 .container p {
   text-align: justify;
@@ -85,21 +92,26 @@ p {
     text-align: center;
   }
   p {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 0;
   }
   .hero {
-    padding: 60px 20px;
+    padding: 40px 20px;
   }
   .hero h2 {
     font-size: 16px;
+    padding-bottom: 20px;
   }
   .btn-branding {
     font-size: 12px;
     padding: 12px 20px;
   }
+  .general-description {
+    padding: 20px;
+  }
   .container h2 {
     font-size: 35px;
     margin: 0 auto;
+    padding-bottom: 12px;
   }
 }
