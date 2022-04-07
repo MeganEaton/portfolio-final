@@ -126,6 +126,17 @@ hr {
   text-align: justify;
   font-size: 20px;
 }
+.contact-resources {
+  text-align: center;
+}
+.contact-resources a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+.contact-resources a:hover {
+  color: var(--accent-color);
+}
 
 .work-section {
   text-align: center;
