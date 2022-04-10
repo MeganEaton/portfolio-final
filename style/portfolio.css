@@ -8,6 +8,7 @@ font-family: 'Poppins', sans-serif;*/
   --accent-color: #c9d6df;
   --primary-font-color: #f0f5f9;
 }
+
 body {
   font-family: var(--primary-font);
 }
@@ -33,6 +34,9 @@ hr {
 h4 {
   font-family: var(--heading-font);
   font-size: 35px;
+  text-align: center;
+}
+footer p {
   text-align: center;
 }
 .navbar-light a,
@@ -155,7 +159,7 @@ li {
 .contact-resources a {
   text-decoration: none;
   color: var(--secondary-color);
-  transition: all 150ms ease-in-out;
+  transition: all 125ms ease-in-out;
 }
 .contact-resources a:hover {
   color: var(--accent-color);
@@ -220,6 +224,9 @@ footer .social-links a:hover {
   color: var(--accent-color);
   background: var(--branding-color);
 }
+footer .author-text {
+  text-align: center;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 35px;
@@ -240,7 +247,7 @@ footer .social-links a:hover {
     font-size: 30px;
   }
   .hero {
-    padding: 40px 20px;
+    padding: 30px 20px;
   }
   .hero h2 {
     font-size: 16px;
@@ -312,5 +319,8 @@ footer .social-links a:hover {
   }
   footer .email-link {
     font-size: 18px;
+  }
+  footer .author-text {
+    font-size: 15px;
   }
 }
