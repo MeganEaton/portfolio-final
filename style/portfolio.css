@@ -16,6 +16,12 @@ body {
 nav div {
   padding: 0 !important;
 }
+nav .dropdown-item {
+  color: var(--primary-font-color) !important;
+}
+nav .dropdown-item:hover {
+  color: var(--secondary-color) !important;
+}
 h1 {
   font-family: var(--heading-font);
   font-size: 96px;
@@ -39,13 +45,13 @@ h4 {
 footer p {
   text-align: center;
 }
-.navbar-light a,
+.navbar-dark a,
 li {
   color: var(--primary-font-color) !important;
 }
 .bg-light {
   background-color: var(--branding-color) !important;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .dropdown ul {
   background-color: var(--branding-color) !important;
